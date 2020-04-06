@@ -1,0 +1,188 @@
+
+b{
+	color: white;
+}
+header#accueil{
+	height: 1080px;
+}
+header h1{
+	color: white;
+	font-size: 60px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	margin-top: 
+}
+body{
+	background-image: url('img/img-header');
+	background-attachment: fixed;
+}
+section.content{
+	background-color: #463b3bf0;
+	height: 700px;
+	padding-top: 50px;
+	margin: none;
+}
+section.content h2{
+	color: white;
+	font-size: 45px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+article{
+	display: flex;
+}
+#img-accueil{
+	margin-left: 350px;
+}
+#texte-accueil{
+	position: relative;
+	left: 100px;
+	width: 600px;
+	color: white;
+	font-family: 'Odibee Sans', cursive;
+}
+button#bouttons{
+	margin-top: 0px;
+}
+#bouttons{
+	position: absolute;
+	left: 40%;
+	top: 1700px;
+}
+#boutton1{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+#boutton1:hover{
+	transform: scale(1.2);
+}
+#boutton2{
+	margin-left: 20px;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+#boutton2:hover{
+	transform: scale(1.2);
+}
+
+/*__________________________________________________________________________________PAGE CONNEXION______________________________*/
+
+header{
+	height: 200px;
+}
+section h2{
+	color: white;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+input{
+	border-radius: 20px;
+	width: 350px;
+	height: 40px;
+	border-style: solid;
+	background-color: #3534349e;
+	margin-top: 20px;
+	color: white;
+}
+input::placeholder{
+	color: white;
+	text-align: center;
+}
+input:hover{
+	transform: scale(1.2);
+}
+button{
+	border-radius: 10px;
+	width: 350px;
+	height: 40px;
+	border-style: solid;
+	background-color: #353434d4;
+	margin-top: 20px;
+	color: white;
+}
+article#connexion1{
+	margin-left: 40%;
+	margin-top: 8%;
+}
+/*__________________________________________________________________________________PAGE INSCRIPTION______________________________*/
+
+h2{
+	color: white;
+	font-size: 30px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+#form-inscription{
+	margin-left: 40%;
+	margin-top: 8%;
+}
+
+/*__________________________________________________________________________________PAGE PLANNING___________________________________*/
+.tab-planning{
+	position: relative;
+	left: 7%
+}
+th.ligne-jours{
+	text-align: center;
+	font-size: 22px;
+	background-color: #32bbf9d1;
+}
+td.colonne-heures{
+	background-color: #32bbf9d1;
+	text-align: center;
+}
+td{
+	width: 200px;
+	height: 90px;
+	background-color: #ffffffdb;
+	border-style: ridge;
+	border-width: 3px;
+	border-color: black;
+}
+td:hover{
+	transform: scale(1.05);
+}
+________________________________________________________HEADER____________________________________________
+
+li{
+	background-color: white;	
+}
+input.deco{
+	position: absolute;
+	top: 100px
+	right: 50px;
+
+}
+.form-modifier{
+	margin-left: 42%;
+	margin-top: 10%;
+}
+label{
+	color: white;
+	font-weight: bold;
+}
+legend{
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-connect{
+    background:#f3f2f1;
+    height:40px;
+    width: 20%;
+    margin-bottom:15px;
+    margin-left: 40%;
+}
+.nav-connect li{
+    float:left;
+    list-style:none
+}
+.nav-connect li a{
+    line-height:40px;
+    display:block;
+    padding:0 10px;
+}
